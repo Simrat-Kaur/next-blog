@@ -1,0 +1,35 @@
+/* Light Theme */
+:root {
+    --background-color: white;
+    --link-color: darkred;
+    --text-color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a{
+    /* color: rgb(210, 129, 109); */
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+/* .NavBar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.NavBar li {
+    display: inline;
+}
+
+.NavBar li:not(:first-child){
+    margin-left: 0.75rem;
+} */
